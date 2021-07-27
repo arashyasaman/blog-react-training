@@ -1,0 +1,13 @@
+.posts {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: right;
+  width: 80%;
+  margin: auto;
+}
+
+.title {padding: 0 20px;  width: 80%; display: block; margin: 20px auto;}
+.error {
+  color: red;
+  font-size: 20px;
+}

@@ -1,0 +1,27 @@
+.post {
+  width: 100%;
+  padding: 0;
+  text-align: right;
+  border-bottom: 1px dashed #333;
+  border-radius: 0;
+  margin: 10px 0;
+  box-sizing: border-box;
+  background: transparent;
+  cursor: pointer;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.post:last-child {border-bottom: none;}
+
+.post h1 {
+  color: #555;
+  margin: 0;
+}
+
+.author {
+  margin: 16px 0;
+  color: #333;
+}
