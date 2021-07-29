@@ -1,23 +1,12 @@
 import React from 'react'
+
 import './Post.css'
 
-const Post = (props) => {
-    return (
-        <article
-            onClick={props.click}
-            className="post"
-        >
-            <h1>{props.title}</h1>
-            <p>
-                {props.content}
-            </p>
-            <div>
-                <div className="author">
-                    نویسنده: {props.author}
-                </div>
-            </div>
-        </article>
-    )
-}
+const post = (props) => (
+  <article className="post" onClick={props.click}>
+    <h1>{props.title}</h1>
+    <div className="author">{props.author}</div>
+  </article>
+)
 
-export default Post;
+export default post
